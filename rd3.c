@@ -1,14 +1,14 @@
 #include<stdio.h>
 char input[20];
 int ip=0;
-int s();
-int a();
+int S();
+int A();
 void main()
 {
 
     printf("Enter the String : ");
     scanf("%s",input);
-    int i=s();
+    int i=S();
     if(i==1)
     {
         printf("String is accepted");
@@ -18,12 +18,12 @@ void main()
         printf("String is not accepted");
     }
 }
-int s()
+int S()
 {
     if(input[ip]=='c')
     {   
         ip++;
-        if(a())
+        if(A())
         {
             ip++;
             if(input[ip]=='d')
@@ -34,7 +34,7 @@ int s()
     }
     return 0;
 }
-int a()
+int A()
 {
     int isave=ip;
     if(input[ip]=='a')

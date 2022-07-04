@@ -23,7 +23,7 @@ case 1: if(isalpha(input[ip])|| input[ip]=='_')
 	}
 	break;
 	
-case 2: if(isdigit(input[ip]||isalpha(input[ip])))
+case 2: if(isdigit(input[ip])||isalpha(input[ip]))
 {
 	state =2;
 	ip++;
@@ -48,3 +48,4 @@ else
 	printf("invalid\n");
 }
 }
+

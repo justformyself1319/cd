@@ -18,7 +18,7 @@ void main()
         printf("String is not accepted");
     }
 }
-int s()
+int S()
 {
     if(input[ip]=='c')
     {   
@@ -26,7 +26,7 @@ int s()
         if(A())
         {
             ip++;
-            if(input[ip]=='i')
+            if(input[ip]=='d')
             {
                 return 1;
             }
@@ -40,7 +40,7 @@ int A()
     if(input[ip]=='a')
     {
         ip++;
-        if(input[ip]=='i')
+        if(input[ip]=='b')
         {
             return 1;
         }
